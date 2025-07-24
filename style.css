@@ -56,14 +56,13 @@ body {
     color: #6b547f; /* slightly deeper pastel text */
   }
   .hero {
-    background-color: #f3e8fb; /* soft pastel background */
-    text-align: center;
-    padding: 100px 20px 60px;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-    color: #5a4270;
-    margin: 0;
-  }
-  
+  background-color: #f3e8fb; /* soft pastel background */
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #5a4270;
+  margin: 0;
+}
