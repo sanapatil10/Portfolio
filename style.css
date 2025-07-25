@@ -1,7 +1,7 @@
 /* General styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: #f5f5dc; /* beige background */
   color: #064420; /* dark emerald text */
 }
@@ -59,7 +59,7 @@ body {
 .hero h1 {
   font-size: 60px;
   margin: 0 0 10px;
-  background: linear-gradient(90deg, #064420, #a3c9a8); /* emerald to soft emerald */
+  background: linear-gradient(90deg, #a3c9a8, #064420 ); /* soft emerald to  emerald */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; /* fallback */
