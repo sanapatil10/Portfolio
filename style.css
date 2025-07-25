@@ -66,3 +66,39 @@ body {
   color: #5a4270;
   margin: 0;
 }
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh; /* Full screen height */
+  background-color: #f3e8fb; /* pastel background */
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+.hero-text {
+  max-width: 60%;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #5a4270;
+  margin: 0 0 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #7b5e94;
+  margin: 0;
+}
+
+/* Circular Placeholder for Photo */
+.hero-photo-placeholder {
+  width: 250px;
+  height: 250px;
+  background-color: #e0c9f0;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
