@@ -58,9 +58,14 @@ body {
 
 .hero h1 {
   font-size: 60px;
-  color: #064420; /* emerald */
   margin: 0 0 10px;
+  background: linear-gradient(90deg, #064420, #a3c9a8); /* emerald to soft emerald */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* fallback */
+  color: transparent;
 }
+
 
 .hero p {
   font-size: 20px;
