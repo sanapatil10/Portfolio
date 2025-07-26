@@ -59,10 +59,15 @@ body {
 .hero h1 {
   font-size: 60px;
   margin: 0 0 10px;
-  background: linear-gradient(90deg, #a3c9a8, #064420 ); /* soft emerald to  emerald */
+  background: linear-gradient(
+    90deg,
+    #064420 0%,
+    #a3c9a8 50%,
+    #064420 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; /* fallback */
+  background-clip: text;
   color: transparent;
 }
 
