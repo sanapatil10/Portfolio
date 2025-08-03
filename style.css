@@ -50,45 +50,38 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  height: 100vh; /* full screen height */
   background-color: #e6e2d3; /* light beige */
-  padding: 0 80px;
+  padding: 80px;
   box-sizing: border-box;
 }
 
 .hero-text {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 .hero h1 {
-  font-size: 60px;
-  margin: 0 0 10px;
-  background: linear-gradient(
-    90deg,
-    #064420 0%,
-    #a3c9a8 50%,
-    #064420 100%
-  );
+  font-size: 64px;
+  margin: 0 0 20px;
+  background: linear-gradient(90deg, #064420, #a3c9a8, #064420);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
 
-
 .hero p {
-  font-size: 20px;
-  color: #1a5936; /* slightly lighter emerald */
+  font-size: 24px;
+  color: #1a5936;
   margin: 0;
 }
 
-/* Photo Placeholder (or image) */
 .hero-photo {
   width: 300px;
   height: 420px;
-  border-radius: 30px;
+  border-radius: 40px;
   object-fit: cover;
-  border: 4px solid #a3c9a8; /* soft emerald border */
+  border: 4px solid #a3c9a8;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
