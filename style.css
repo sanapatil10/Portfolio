@@ -5,6 +5,10 @@ body {
   background-color: #f5f5dc; /* beige background */
   color: #064420; /* dark emerald text */
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* Navbar styling */
 .navbar {
@@ -90,19 +94,32 @@ body {
 
 
 /* Section styles */
+/* Make each section fill one full screen */
 section {
-  padding: 60px 40px;
-  border-bottom: 1px solid #d2c8b2; /* beige border */
+  height: 100vh;
+  padding: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #d2c8b2;
 }
 
+/* Headings */
 section h2 {
-  margin-top: 0;
+  font-size: 36px;
+  margin-bottom: 20px;
   color: #064420;
 }
 
+/* Paragraphs */
 section p {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 800px;
   color: #1a5936;
 }
+
 #about p {
   line-height: 1.6;
   font-size: 17px;
