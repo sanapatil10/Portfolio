@@ -103,3 +103,8 @@ section h2 {
 section p {
   color: #1a5936;
 }
+#about p {
+  line-height: 1.6;
+  font-size: 17px;
+}
+
